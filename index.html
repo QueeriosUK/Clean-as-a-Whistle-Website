@@ -313,9 +313,11 @@
     .foot-bottom{justify-content:center;text-align:center}
   }
   @media(max-width:430px){
-    .trust .grid{grid-template-columns:1fr}
-    .trust .item{border-left:0;border-top:1px solid var(--line)}
-    .trust .item:first-child{border-top:0}
+    .trust .grid{grid-template-columns:1fr 1fr}
+    .trust .item{padding:28px 14px;gap:9px}
+    .trust .item h4{font-size:.92rem}
+    .trust .item p{font-size:.78rem}
+    .trust .item:nth-child(3),.trust .item:nth-child(4){border-top:1px solid var(--line)}
   }
 
   @media(prefers-reduced-motion:reduce){
